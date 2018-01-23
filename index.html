@@ -20,15 +20,15 @@
           <div class="form-group">
             <label for="movies">Choose a movie</label>
             <select class="form-control" id="movies">
-              <option>PADDINGTON 2</option>
-              <option>JUMANJI: WELCOME TO THE JUNGLE</option>
-              <option>STAR WARS: THE LAST JEDI (2017)</option>
-              <option>I, TONYA</option>
+              <option value="new">PADDINGTON 2</option>
+              <option value="old">JUMANJI: WELCOME TO THE JUNGLE</option>
+              <option value="old">STAR WARS: THE LAST JEDI (2017)</option>
+              <option value="new">I, TONYA</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="movies">Choose a showing</label>
-            <select class="form-control" id="movies">
+            <label for="showing">Choose a showing</label>
+            <select class="form-control" id="showing">
               <option value="morning">10:30 am</option>
               <option value="day">2:15 pm</option>
               <option value="night">5:30 pm</option>
@@ -37,10 +37,14 @@
           </div>
           <div class="form-group">
             <label for="born">Date of birth:</label>
-            <input id="born" class="form-control" type="date">
+            <input id="age" class="form-control" type="date">
           </div>
           <button type="submit" class="button btn-lg">Purchase</button>
         </form>
+      </div>
+
+      <div class="well" id="price-well">
+        <h2>$<span class="price"></span></h2>
       </div>
 
     </div>
