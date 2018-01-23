@@ -50,5 +50,6 @@ $(document).ready(function() {
     var age = $("input#age").val();
     var newTicket = new Ticket(movie, showing, age);
     $(".price").text(newTicket.price);
+    $("#price-well").show();
   });
 });

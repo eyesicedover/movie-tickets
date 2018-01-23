@@ -1,0 +1,22 @@
+#price-well {
+  display: none;
+}
+
+.jumbotron {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.well {
+  margin: auto;
+}
+
+#price-well {
+  text-align: center;
+}
