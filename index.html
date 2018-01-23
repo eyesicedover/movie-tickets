@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1>Movie Tickets</h1>
+      </div>
+
+      <div class="well" id="purchase-form">
+        <form id="tickets-form">
+          <div class="form-group">
+            <label for="movies">Choose a movie</label>
+            <select class="form-control" id="movies">
+              <option>PADDINGTON 2</option>
+              <option>JUMANJI: WELCOME TO THE JUNGLE</option>
+              <option>STAR WARS: THE LAST JEDI (2017)</option>
+              <option>I, TONYA</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="movies">Choose a showing</label>
+            <select class="form-control" id="movies">
+              <option value="morning">10:30 am</option>
+              <option value="day">2:15 pm</option>
+              <option value="night">5:30 pm</option>
+              <option value="night">9:00 pm</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <button type="submit" class="button btn-lg">Purchase</button>
+        </form>
+      </div>
+
+    </div>
+  </body>
+</html>
